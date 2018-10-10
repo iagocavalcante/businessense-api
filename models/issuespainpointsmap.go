@@ -6,7 +6,7 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-//Issue Type
+//IssuePainPointsMap Type
 type IssuePainPointsMap struct {
 	gorm.Model
 	issue       Issue
@@ -16,7 +16,7 @@ type IssuePainPointsMap struct {
 	relevance   float64
 }
 
-//Create Issue
+//Create IssuePainPointsMap
 func (issuepainpointmap *IssuePainPointsMap) Create() map[string]interface{} {
 	GetDB().Create(issuepainpointmap)
 	response := u.Message(true, "Issue has been created")
