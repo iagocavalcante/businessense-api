@@ -25,7 +25,6 @@ func main() {
 	router.HandleFunc("/api/industry/search/{search}", controllers.GetIndustries).Methods("GET")
 
 	//APIs to handle company creation and listing
-	//router.HandleFunc("/api/company/{id}", controllers.GetCompny)
 	router.HandleFunc("/api/company/new", controllers.CreateCompany).Methods("POST")
 	router.HandleFunc("/api/companies", controllers.GetCompanies).Methods("GET")
 

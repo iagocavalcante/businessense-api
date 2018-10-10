@@ -19,9 +19,11 @@ type Token struct {
 //Account for user
 type Account struct {
 	gorm.Model
-	Email    string `json:"email"`
-	Password string `json:"password"`
-	Token    string `json:"token" sql:"-"`
+	Email     string `json:"email"`
+	Firstname string `json:"firstname"`
+	Lastname  string `json:"lastname"`
+	Password  string `json:"password"`
+	Token     string `json:"token" sql:"-"`
 }
 
 //Validate the User Accoint
