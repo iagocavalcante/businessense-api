@@ -10,7 +10,10 @@ import (
 //Issue Type
 type Issue struct {
 	gorm.Model
-	Name string `json:"name"`
+	Name        string `json:"name"`
+	Description string `json:"description"`
+	Stats       string `json:"stats"`
+	RiskFactors string `json:"riskfactors"`
 }
 
 //Create Issue
