@@ -7,14 +7,16 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-//Constraint Type
+//Solution Type
 type Solution struct {
 	gorm.Model
-	Name        string `json:"name"`
-	Description string `json:"description"`
+	Name           string `json:"name"`
+	Description    string `json:"description"`
+	Implementation string `json:"implementation"`
+	SkillsTools    string `json:"skillstools"`
 }
 
-//Create Constraint
+//Create Solution
 func (solution *Solution) Create() map[string]interface{} {
 	GetDB().Create(solution)
 	response := u.Message(true, "Solution has been created")

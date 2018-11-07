@@ -9,11 +9,11 @@ import (
 //IssuePainPointsMap Type
 type IssuePainPointsMap struct {
 	gorm.Model
-	issue       Issue
+	Issue       Issue
 	IssueID     int
-	painpoint   PainPoint
+	PainPoint   PainPoint
 	PainPointID int
-	relevance   float64
+	Relevance   float64
 }
 
 //Create IssuePainPointsMap
