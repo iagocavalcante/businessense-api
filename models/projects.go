@@ -36,3 +36,10 @@ func GetProjectByCompany(company int) []*Project {
 	}
 	return projects
 }
+
+//GetSolution based on search string
+func GetProject(id int) Project {
+	var project Project
+	GetDB().First(&project, id)
+	return project
+}

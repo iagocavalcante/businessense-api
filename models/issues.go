@@ -24,6 +24,13 @@ func (issue *Issue) Create() map[string]interface{} {
 	return response
 }
 
+//GetIssue based on ID
+func GetIssue(id int) Issue {
+	var issue Issue
+	GetDB().First(&issue, id)
+	return issue
+}
+
 //GetIssues based on search string
 func GetIssues(search string) []*Issue {
 	issue := make([]*Issue, 0)

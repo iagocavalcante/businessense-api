@@ -2,7 +2,6 @@ package models
 
 import (
 	u "businessense/utils"
-	"fmt"
 
 	"github.com/jinzhu/gorm"
 )
@@ -24,13 +23,17 @@ func (solution *Solution) Create() map[string]interface{} {
 	return response
 }
 
-//GetSolution based on search string
-func GetSolution(search string) []*Solution {
+//GetSolutionsForIssue based on issue id
+func GetSolutionsForIssue(issueid int) []*Solution {
 	solutions := make([]*Solution, 0)
-	err := GetDB().Where("UPPER(name) LIKE UPPER(?)", "%"+search+"%").Find(&solutions).Error
-	if err != nil {
-		fmt.Println(err)
-		return nil
-	}
+
+	GetDB().Find(&solutions).Where("exists (select 1 from constraint_issues_solution_maps where solutions.id = solution_id and issue_id = ?)", issueid)
 	return solutions
+}
+
+//GetSolution based on search string
+func GetSolution(id int) Solution {
+	var solution Solution
+	GetDB().First(&solution, id)
+	return solution
 }
