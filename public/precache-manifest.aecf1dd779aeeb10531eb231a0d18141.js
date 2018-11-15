@@ -64,12 +64,12 @@ self.__precacheManifest = [
     "url": "/img/bsense_rgb_verde.bdbca561.png"
   },
   {
-    "revision": "4fcdd97fadc3a1d9887f816f2aa67f1d",
-    "url": "/fonts/CircularStd-Medium.4fcdd97f.otf"
-  },
-  {
     "revision": "6365c40aa59d462f1cc52ccce9635cb4",
     "url": "/fonts/CircularStd-Book.6365c40a.otf"
+  },
+  {
+    "revision": "4fcdd97fadc3a1d9887f816f2aa67f1d",
+    "url": "/fonts/CircularStd-Medium.4fcdd97f.otf"
   },
   {
     "revision": "7f42d8488652eb250af2f484d377dbee",
