@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "a0840ce261e435751b1b",
-    "url": "/js/risks.c6e3683c.js"
+    "revision": "614da3f424bc50729c73",
+    "url": "/js/risks.f93acc4e.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/css/welcome.cd07ce03.css"
   },
   {
-    "revision": "d21159979ed04e34f905",
-    "url": "/js/app.96c76c54.js"
+    "revision": "2f9072a9f6f211f1a567",
+    "url": "/js/app.e92892e6.js"
   },
   {
     "revision": "3b238eb94ff4508d90f2",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/js/welcome.ee2dc41e.js"
   },
   {
-    "revision": "ce39bc4cf95ae0522cd4",
-    "url": "/js/insights.9c8ce5ef.js"
+    "revision": "73c5a6850f63035b3cdc",
+    "url": "/js/insights.37d26af1.js"
   },
   {
-    "revision": "e71d209eddefbfb646a2",
-    "url": "/js/possible-solutions.645f1b39.js"
+    "revision": "c5809fe0e8d5f9e37b1d",
+    "url": "/js/possible-solutions.cc357cbc.js"
   },
   {
-    "revision": "d1109945e2516059d61c",
-    "url": "/js/login.579c7b49.js"
+    "revision": "2af3ad0063fd1e4fd955",
+    "url": "/js/login.df72780f.js"
   },
   {
     "revision": "bfecde2baa00bac11846faa234cfef08",
@@ -48,11 +48,11 @@ self.__precacheManifest = [
     "url": "/img/login.fb252c55.jpg"
   },
   {
-    "revision": "a0840ce261e435751b1b",
-    "url": "/css/risks.4f113c8b.css"
+    "revision": "614da3f424bc50729c73",
+    "url": "/css/risks.9e9c2b87.css"
   },
   {
-    "revision": "ede6a9d2dddf104ff2f311066970a7a0",
+    "revision": "75982f19723bc7c4e990b9fed8d4417b",
     "url": "/index.html"
   },
   {
@@ -68,35 +68,35 @@ self.__precacheManifest = [
     "url": "/img/background-dash.a95876ac.jpg"
   },
   {
-    "revision": "4fcdd97fadc3a1d9887f816f2aa67f1d",
-    "url": "/fonts/CircularStd-Medium.4fcdd97f.otf"
-  },
-  {
     "revision": "6365c40aa59d462f1cc52ccce9635cb4",
     "url": "/fonts/CircularStd-Book.6365c40a.otf"
+  },
+  {
+    "revision": "4fcdd97fadc3a1d9887f816f2aa67f1d",
+    "url": "/fonts/CircularStd-Medium.4fcdd97f.otf"
   },
   {
     "revision": "7f42d8488652eb250af2f484d377dbee",
     "url": "/fonts/CircularStd-Black.7f42d848.otf"
   },
   {
-    "revision": "e71d209eddefbfb646a2",
-    "url": "/css/possible-solutions.7c1dcefe.css"
+    "revision": "c5809fe0e8d5f9e37b1d",
+    "url": "/css/possible-solutions.1e8e1f99.css"
   },
   {
-    "revision": "d1109945e2516059d61c",
+    "revision": "2af3ad0063fd1e4fd955",
     "url": "/css/login.b8ecbca9.css"
   },
   {
-    "revision": "ce39bc4cf95ae0522cd4",
-    "url": "/css/insights.9c27557a.css"
+    "revision": "73c5a6850f63035b3cdc",
+    "url": "/css/insights.a503262f.css"
   },
   {
     "revision": "3b238eb94ff4508d90f2",
     "url": "/css/chunk-vendors.77bf0cd7.css"
   },
   {
-    "revision": "d21159979ed04e34f905",
+    "revision": "2f9072a9f6f211f1a567",
     "url": "/css/app.f37e0b85.css"
   }
 ];

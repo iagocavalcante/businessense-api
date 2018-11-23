@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.c8e738a5ccd0e5df4edaebf92004512d.js"
+  "/precache-manifest.32f7a7bbe3562bf57fe46623a5064a95.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "businessensefrontend"});
