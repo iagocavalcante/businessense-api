@@ -10,3 +10,13 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Build output
+bin/
+server
+
+# Claude memory
+.claude-memory/
+
+# Coverage
+coverage.html
